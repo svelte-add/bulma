@@ -1,0 +1,26 @@
+{
+    "name": "@svelte-add/bulma",
+    "private": true,
+    "version": "2021.03.13",
+    "description": "A command to add Bulma to your SvelteKit project",
+    "author": "Manuel Serret <mserret99@gmail.com>",
+    "keywords": [
+        "svelte",
+        "sveltekit",
+        "svelte-kit",
+        "postcss",
+        "sass",
+        "bulma"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/manuel3108/bulma.git"
+    },
+    "bugs": "https://github.com/manuel3108/svelte-add-bulma/issues",
+    "homepage": "https://github.com/manuel3108/svelte-add-bulma",
+    "preset": "preset.ts",
+    "devDependencies": {
+        "apply": "^0.2.13"
+    }
+}
