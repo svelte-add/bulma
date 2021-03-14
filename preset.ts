@@ -1,4 +1,4 @@
-import { Preset, color } from "apply";
+import { Preset } from "apply";
 
 Preset.setName("svelte-add/bulma");
 
@@ -45,7 +45,7 @@ Preset.edit(["svelte.config.cjs"])
 
 // add demo files if requested by the user
 var DEMO_PROMPT_KEY = "demo";
-Preset.confirm(DEMO_PROMPT_KEY, "Add Bulma Demo?", false);
+Preset.confirm(DEMO_PROMPT_KEY, "Add Bulma demo?", false);
 Preset.extract("demo-files").withTitle("Adding Bulma demo files").ifPrompt(DEMO_PROMPT_KEY);
 Preset.edit(["src/routes/index.svelte"])
     .update((match) => {
@@ -57,11 +57,3 @@ Preset.edit(["src/routes/index.svelte"])
 
 // update dependencies
 Preset.installDependencies().ifUserApproves();
-
-// give some starting help
-Preset.instruct([
-    `You can now run your dev server to have a look.`,
-    `Don't forget to take a look at  to further configure your design.`,
-    `There you can in example put something like about ${color.magenta("$body-background-color: blue;")} above the import statements.`,
-    `Make sure to check out ${color.magenta("https://bulma.io/documentation/customize/variables/")} for all configuration options!`,
-]).withHeading("What's next?");

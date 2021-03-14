@@ -1,9 +1,5 @@
 <script>
-    let temp = "";
+    import "../global.scss";
 </script>
 
 <slot />
-
-<style global lang="scss">
-    @import "../bulma.scss";
-</style>

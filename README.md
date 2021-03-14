@@ -1,4 +1,4 @@
-<h1 align="center">💨 Add Bulma to Svelte</h1>
+<h1 align="center">📗 Add Bulma to Svelte</h1>
 
 ## ❓ What is this?
 This is an **experimental** command to run to add Bulma to your SvelteKit project.
@@ -9,7 +9,7 @@ You must start with a fresh copy of the official SvelteKit template, which is cu
 npm init svelte@next
 ```
 
-Finally, run this command in your project directory to set up Tailwind CSS:
+Once that is set up, run this command in your project directory to set up Bulma:
 ```sh
 npx apply manuel3108/svelte-add-bulma # --no-ssh
 ```
