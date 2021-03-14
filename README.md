@@ -11,11 +11,13 @@ npm init svelte@next
 
 Once that is set up, run this command in your project directory to set up Bulma:
 ```sh
-npx apply manuel3108/svelte-add-bulma # --no-ssh
+npx svelte-add manuel3108/svelte-add-bulma
 ```
 
 After the preset runs,
 * You can use Bulma utility classes like `is-primary` or `mb-3` in the markup (components, routes, `app.html`).
+
+* You can modify your design in `src/global.scss` and in example add `$body-background-color: blue;` above the import statements. Make sure to also check out [Bulma Docs](https://bulma.io/documentation/customize/variables/) for all configuration options!
 
 * You can apply *another* [Svelte Adder](https://github.com/svelte-add/svelte-adders) to your project for more functionality.
 
