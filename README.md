@@ -11,7 +11,7 @@ npm init svelte@next
 
 Once that is set up, run this command in your project directory to set up Bulma:
 ```sh
-npx svelte-add manuel3108/svelte-add-bulma
+npx svelte-add bulma
 ```
 
 After the preset runs,
@@ -22,10 +22,10 @@ After the preset runs,
 * You can apply *another* [Svelte Adder](https://github.com/svelte-add/svelte-adders) to your project for more functionality.
 
 ## 😵 Help! I have a question
-[Create an issue](https://github.com/manuel3108/svelte-add-bulma/issues/new) and I'll try to help.
+[Create an issue](https://github.com/svelte-add/bulma/issues/new) and I'll try to help.
 
 ## 😡 Fix! There is something that needs improvement
-[Create an issue](https://github.com/manuel3108/svelte-add-bulma/issues/new) or [pull request](https://github.com/manuel3108/svelte-add-bulma/pulls) and I'll try to fix.
+[Create an issue](https://github.com/svelte-add/bulma/issues/new) or [pull request](https://github.com/svelte-add/bulma/pulls) and I'll try to fix.
 
 These are new tools, so there are likely to be problems in this project. Thank you for bringing them to my attention or fixing them for me.
 

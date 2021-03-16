@@ -15,10 +15,10 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/manuel3108/bulma.git"
+        "url": "https://github.com/svelte-add/bulma.git"
     },
-    "bugs": "https://github.com/manuel3108/svelte-add-bulma/issues",
-    "homepage": "https://github.com/manuel3108/svelte-add-bulma",
+    "bugs": "https://github.com/svelte-add/bulma/issues",
+    "homepage": "https://github.com/svelte-add/bulma",
     "preset": "preset.ts",
     "devDependencies": {
         "apply": "^0.2.13"
