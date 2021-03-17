@@ -1,7 +1,7 @@
 {
     "name": "@svelte-add/bulma",
     "private": true,
-    "version": "2021.03.16",
+    "version": "2021.03.16.1",
     "description": "A command to add Bulma to your SvelteKit project",
     "author": "Manuel Serret <mserret99@gmail.com>",
     "keywords": [
