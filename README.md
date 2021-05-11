@@ -11,7 +11,7 @@ npm init svelte@next
 
 Once that is set up, run this command in your project directory to set up Bulma:
 ```sh
-npx svelte-add bulma
+npx svelte-add svelte-add/bulma
 ```
 
 After the preset runs,
