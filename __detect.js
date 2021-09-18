@@ -1,8 +1,3 @@
-import { bulmaImports } from "./stuff.js";
-
-// Note: This adder depends on the scss adder, which has it's own detector.
-// So we only need to check the additional changes made with the bulma adder
-
 /** @type {import("../..").Heuristic[]} */
 export const heuristics = [
 	{
@@ -12,11 +7,10 @@ export const heuristics = [
 		},
 	},
 	{
-		description: "`bulma` imports where added to `src/app.scss`",
+		description: "some `bulma` files are imported in `src/app.scss`",
 		async detector({ readFile }) {
-			const scss = await readFile({ path: "/src/app.scss" });
-
-			return scss.text.includes(bulmaImports);
+			const { text } = await readFile({ path: "/src/app.scss" });
+			return text.includes("bulma");
 		},
 	},
 ];

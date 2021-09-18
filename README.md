@@ -22,8 +22,6 @@ This adder doesn't take any options of its own.
 
 After the adder runs,
 
-- You can use Bulma utility classes like `is-primary` or `mb-3` in the markup (components, routes).
+- You can use Bulma classes like `is-primary` or `mb-3` in the markup (components, routes, `app.html`).
 
-- You can modify your design in `src/app.scss` and in example add `$body-background-color: blue;` above the import statements. Make sure to also check out [Bulma Docs](https://bulma.io/documentation/customize/variables/) for all configuration options!
-
-- You can apply _another_ [Svelte Adder](https://github.com/svelte-add/svelte-adders) to your project for more functionality.
+- You can [customize your Bulma theme with variables](https://bulma.io/documentation/customize/variables/) like `$success` or `$body-background-color` in `src/variables.scss`.
