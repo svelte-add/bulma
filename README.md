@@ -1,39 +1,29 @@
 <h1 align="center">📗 Add Bulma to Svelte</h1>
 
-## ❓ What is this?
-This is an **experimental** command to run to add Bulma to your SvelteKit project.
+This is an adder for `svelte-add`; you should [read its `README`](https://github.com/svelte-add/svelte-add#readme) before continuing here.
 
-## 🛠 Usage
-You must start with a fresh copy of the official SvelteKit template, which is currently created by running this command:
+## ➕ Adding Bulma
+
+This adder's codename is `bulma`, and can be used like so:
+
 ```sh
-npm init svelte@next
+npx svelte-add@latest bulma
 ```
 
-Once that is set up, run this command in your project directory to set up Bulma:
-```sh
-npx svelte-add svelte-add/bulma
-```
+### 🏞 Supported environments
 
-After the preset runs,
-* You can use Bulma utility classes like `is-primary` or `mb-3` in the markup (components, routes, `app.html`).
+This adder supports SvelteKit and Vite-powered Svelte apps (all the environments `svelte-add` currently supports).
 
-* You can modify your design in `src/global.scss` and in example add `$body-background-color: blue;` above the import statements. Make sure to also check out [Bulma Docs](https://bulma.io/documentation/customize/variables/) for all configuration options!
+### ⚙️ Options
 
-* You can apply *another* [Svelte Adder](https://github.com/svelte-add/svelte-adders) to your project for more functionality.
+This adder doesn't take any options of its own.
 
-## 😵 Help! I have a question
-[Create an issue](https://github.com/svelte-add/bulma/issues/new) and I'll try to help.
+## 🛠 Using Bulma
 
-## 😡 Fix! There is something that needs improvement
-[Create an issue](https://github.com/svelte-add/bulma/issues/new) or [pull request](https://github.com/svelte-add/bulma/pulls) and I'll try to fix.
+After the adder runs,
 
-These are new tools, so there are likely to be problems in this project. Thank you for bringing them to my attention or fixing them for me.
+- You can use Bulma utility classes like `is-primary` or `mb-3` in the markup (components, routes).
 
-## 📄 License
-MIT
+- You can modify your design in `src/app.scss` and in example add `$body-background-color: blue;` above the import statements. Make sure to also check out [Bulma Docs](https://bulma.io/documentation/customize/variables/) for all configuration options!
 
----
-
-*Repository preview image generated with [GitHub Social Preview](https://social-preview.pqt.dev/)*
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+- You can apply _another_ [Svelte Adder](https://github.com/svelte-add/svelte-adders) to your project for more functionality.
