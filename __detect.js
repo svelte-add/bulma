@@ -1,3 +1,5 @@
+import { extension } from "../scss/stuff.js";
+
 /** @type {import("../..").Heuristic[]} */
 export const heuristics = [
 	{
@@ -7,9 +9,9 @@ export const heuristics = [
 		},
 	},
 	{
-		description: "some `bulma` files are imported in `src/app.scss`",
+		description: `some \`bulma\` files are imported in \`src/app.${extension}\``,
 		async detector({ readFile }) {
-			const { text } = await readFile({ path: "/src/app.scss" });
+			const { text } = await readFile({ path: `/src/app.${extension}` });
 			return text.includes("bulma");
 		},
 	},
