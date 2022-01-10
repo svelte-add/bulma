@@ -1,7 +1,7 @@
 import { AtRule, Comment, Declaration } from "postcss";
 import { extension, stylesHint } from "../scss/stuff.js";
 
-/** @type {import("../../index.js").AdderRun<import("./__metadata.js").Options>} */
+/** @type {import("../..").AdderRun<import("./__info.js").Options>} */
 export const run = async ({ install, updateCss }) => {
 	await updateCss({
 		path: `/src/variables.${extension}`,

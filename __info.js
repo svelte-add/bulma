@@ -1,5 +1,12 @@
 import { extension } from "../scss/stuff.js";
 
+export const name = "Bulma";
+
+/** @typedef {{}} Options */
+
+/** @type {import("../..").AdderOptions<Options>} */
+export const options = {};
+
 /** @type {import("../..").Heuristic[]} */
 export const heuristics = [
 	{
