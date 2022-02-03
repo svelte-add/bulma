@@ -1,6 +1,6 @@
 <h1 align="center">📗 Add Bulma to Svelte</h1>
 
-This is an adder for `svelte-add`; you should [read its `README`](https://github.com/svelte-add/svelte-add#readme) before continuing here. If you need any help or want to share your feedback, please provide it in the main [svelte-add](https://github.com/svelte-add/svelte-add) repository. Alternativly you can directly [create an issue here](https://github.com/svelte-add/svelte-add/issues/new).
+This is an adder for `svelte-add`; you should [read its `README`](https://github.com/svelte-add/svelte-add#readme) before continuing here.
 
 ## ➕ Adding Bulma
 

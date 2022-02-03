@@ -2,6 +2,10 @@ import { extension } from "../scss/stuff.js";
 
 export const name = "Bulma";
 
+export const emoji = "📗";
+
+export const usageMarkdown = ["You can use Bulma classes like `is-primary` or `mb-3` in the markup (components, routes, `app.html`).", "You can [customize your Bulma theme with variables](https://bulma.io/documentation/customize/variables/) like `$success` or `$body-background-color` in `src/variables.scss`."];
+
 /** @type {import("../..").Gatekeep} */
 export const gatekeep = async () => {
 	return { able: true };
