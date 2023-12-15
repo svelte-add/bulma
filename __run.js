@@ -9,13 +9,13 @@ export const run = async ({ install, updateCss }) => {
 			postcss.append(
 				new Comment({
 					text: "https://github.com/jgthms/bulma/issues/1293",
-				})
+				}),
 			);
 			postcss.append(
 				new Declaration({
 					prop: "$body-overflow-y",
 					value: "auto",
-				})
+				}),
 			);
 
 			return {
